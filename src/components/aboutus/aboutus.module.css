@@ -1,0 +1,56 @@
+.image1 {
+	width: 700px;
+	height: 600px;
+}
+.aboutUsInfo {
+	position: relative;
+	border: 1px solid green;
+	width: 100vw;
+	height: 35vw;
+	top: 50px;
+	left: -80px;
+	background-color: aliceblue;
+	box-shadow: 8px 8px 5px 0 green;
+}
+.article {
+	display: flex;
+}
+.aboutUsMainHeading {
+	text-align: center;
+	font-size: 50px;
+	font-family: "Courier New", Courier, monospace;
+	color: #c5cb08;
+}
+.aboutUsParagraph {
+	font-size: 18px;
+	text-align: center;
+}
+.whatWeDo {
+	color: #c5cb08;
+	text-align: center;
+}
+.aboutUsSpan {
+	font-size: 17px;
+	text-align: center;
+}
+.button {
+	margin-top: 50px;
+	width: 10rem;
+	height: 2rem;
+	background-color: #c5cb08;
+	line-height: 15px;
+	font-size: 15px;
+	border: 3px solid green;
+	outline: none;
+	border-radius: 5px;
+}
+.button:hover {
+	background-color: green;
+	border: outset #c5cb08;
+	cursor: pointer;
+}
+
+.aboutUsButton {
+	text-align: right;
+	padding-right: 10px;
+}

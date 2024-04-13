@@ -1,0 +1,104 @@
+/* Updated Footer Styles */
+.marabfoods_footer {
+    display: flex;
+    flex-direction: column;
+    padding: 4rem;
+    background-color: black;
+    color: white;
+    margin-top: 6rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Use a suitable font-family */
+}
+
+.marabfoods_footer-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 2rem;
+    font-size: 16px; /* Adjust the font size */
+}
+
+.marabfoods_footer-links-div {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.marabfoods_footer a {
+    text-decoration: none;
+    color: white;
+    opacity: 0.8;
+    font-size: 14px; /* Adjust the font size */
+}
+
+.marabfoods_footer a:hover {
+    opacity: 1;
+}
+
+.socialmedia {
+    display: flex;
+    gap: 20px;
+}
+
+.marabfoods_footer-links-div h4 {
+    margin-bottom: 0.9rem;
+}
+
+.marabfoods_footer-below {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 50px;
+    margin-top: 1rem;
+}
+
+.marabfoods_footer-below-links {
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+
+hr {
+    color: aquamarine !important;
+    width: 100%;
+}
+
+.marabfoods_footer-copyright {
+    width: 20%;
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 850px) {
+    .marabfood_footer-heading h1 {
+        font-size: 44px;
+        line-height: 50px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .marabfood_footer-heading h1 {
+        font-size: 34px;
+        line-height: 42px;
+    }
+}
+
+.marabfoods_footer-links-div {
+    margin: 1rem 0;
+}
+
+.marabfoods_footer-btn p {
+    flex-direction: column;
+    justify-content: left;
+}
+
+.marabfoods_footer-below-links {
+    flex-direction: column;
+}
+
+.marabfoods_footer-below-links p {
+    margin-left: 0rem;
+    margin-top: 1rem;
+}

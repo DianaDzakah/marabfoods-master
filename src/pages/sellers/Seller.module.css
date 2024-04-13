@@ -1,0 +1,41 @@
+/* Seller.css */
+
+body {
+    background-color: #f3e5f5; /* Light Purple Background */
+    font-family: 'Roboto', sans-serif; /* Default font with fallback */
+  }
+  
+  h2 {
+    color: #4caf50; /* Green Text Color */
+  }
+  
+  h3 {
+    color: #ff9800; /* Yellowish-Orange Text Color */
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    background-color: #ff9800; /* Yellowish-Orange Button Color */
+    color: #ffffff; /* White Button Text Color */
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #ef6c00; /* Darker Shade on Hover */
+  }
+  
+  /* Add more styles as needed */
+  
